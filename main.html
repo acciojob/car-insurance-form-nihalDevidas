@@ -8,6 +8,49 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+     <form method = "post">
+
+     <label for = "name">Name*</label>
+	  <input type ="text" required id = "name" placeholder = "Name" name = "name">
+
+		<br><br>
+		<label for = "email">Email*</label>
+	  <input type ="text" required id = "email" placeholder = "Email" name = "email">
+
+		<br><br>
+		<label for = "gender">Gender*</label>
+	  <input type ="radio" required id = "gender_m"  name ="gender" value = "m"><label for = "gender_m" >Male</label>
+	  <input type ="radio" required id = "gender_f"  name ="gender" value = "f"><label for = "gender_f">Female</label>
+
+		<br><br>
+		<label for = "cars">Car Brands*</label>
+		<select name = "car" id = "cars"  required>
+			<option value = "" selected disabled>--Please choose an option--</option>
+			<option value = "bmw">BMW</option>
+			<option value = "audi">Audi</option>
+			<option value = "mercedez">Mercedez</option>
+		</select>
+
+		<br><br>
+		<label for = "carage">Car Age*</label>
+	  <input type ="text" required id = "carage" placeholder = "Car Age" name = "carage">
+
+		<br><br>
+		<label for = "dop">Date of Purchase*</label>
+	  <input type  ="date" required id = "dop"  name = "dop">
+
+
+		<br><br>
+		<label for = "password">Password*</label>
+	  <input type ="password" required id = "password" placeholder = "Password" name = "password">
+
+		<br><br>
+		<button type = "submit">Submit</button>
+		
+	</form>
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
